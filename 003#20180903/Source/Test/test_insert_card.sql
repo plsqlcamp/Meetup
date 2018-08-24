@@ -6,7 +6,7 @@ DECLARE
    p_card_number      VARCHAR2(200);
    p_signature        BLOB;
    v_credit_card_id   v_credit_card.credit_card_id%TYPE;
-   v_image_num        PLS_INTEGE;
+   v_image_num        PLS_INTEGER;
    v_image_name       VARCHAR2(15);
 BEGIN
    FOR i IN 1..100 LOOP
@@ -14,8 +14,12 @@ BEGIN
       p_card_number      := trim(regexp_replace(lpad(trunc(dbms_random.value * 10000000000000000),16,'0'),
                                                 '([[:digit:]]{4})', '\1 ')  );
       
-      v_image_num        := round(dbms_random.value(1,9) );
-      v_image_name       := 'img_test_0' || v_image_num || '.png';
+      v_image_num        := round(dbms_random.value(1,9) );      
+      if mod(i,2) > 0 then
+         v_image_name       := 'img_test_0' || v_image_num || '.png';
+      else
+         v_image_name       := 'test_img_0' || v_image_num || '.png';
+      end if;
       
       p_signature        := pk_file.read_blob_file(
          p_dir_name    => pk_file.const_user_default_binary_dir,

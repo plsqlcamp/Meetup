@@ -1,4 +1,4 @@
-create or replace PACKAGE BODY pk_encrypt AS 
+CREATE OR REPLACE PACKAGE BODY pk_encrypt AS 
    /*========================================================================*/
    FUNCTION encrypt (
       p_original_text IN sub_t_varchar_data
@@ -34,11 +34,13 @@ create or replace PACKAGE BODY pk_encrypt AS
       v_key                         := pk_secret_pass.get_pass(v_encrypted_blob_data.reference_date);
       v_iv_raw                      := dbms_crypto.randombytes(16);
       v_encrypted_blob_data.iv_id   := pk_secret_pass.store_iv(v_iv_raw);
+
       dbms_lob.createtemporary(
          v_encrypted_blob_data.encrypted_data,
          true,
          dbms_lob.call
       );
+
       dbms_crypto.encrypt(
          dst   => v_encrypted_blob_data.encrypted_data,
          src   => p_original_blob,
