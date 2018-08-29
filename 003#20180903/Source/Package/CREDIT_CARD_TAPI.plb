@@ -6,7 +6,7 @@ create or replace PACKAGE BODY credit_card_tapi AS
       p_signature     IN BLOB
    ) RETURN credit_card.credit_card_id%TYPE IS
       v_final_number           credit_card.final_card_number%TYPE;
-      v_encrypted_credi_card   to_encrypted_raw_data;
+      v_encrypted_credit_card   to_encrypted_raw_data;
       v_encrypted_signature    to_encrypted_blob_data;
       v_credit_card_id         credit_card.credit_card_id%TYPE;
    BEGIN
@@ -16,7 +16,7 @@ create or replace PACKAGE BODY credit_card_tapi AS
          -4
       );
       /*encrypt credt card*/
-      v_encrypted_credi_card   := pk_encrypt.encrypt(p_original_text   => p_card_number);
+      v_encrypted_credit_card   := pk_encrypt.encrypt(p_original_text   => p_card_number);
       v_encrypted_signature    := pk_encrypt.encrypt(p_original_blob   => p_signature);
       /*insert*/
       INSERT INTO credit_card (
@@ -24,7 +24,7 @@ create or replace PACKAGE BODY credit_card_tapi AS
          final_card_number,
          signature
       ) VALUES (
-         v_encrypted_credi_card,
+         v_encrypted_credit_card,
          v_final_number,
          v_encrypted_signature
       ) RETURNING credit_card_id INTO v_credit_card_id;
