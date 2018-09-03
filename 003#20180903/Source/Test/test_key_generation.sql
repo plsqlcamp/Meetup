@@ -36,10 +36,10 @@ select to_char(sysdate,'dd/mm/yyyy hh24:mi:ss') fim from dual
 /*
 SELECT start_date,
        end_date,
-       ( nvl(
+       round(( nvl(
           end_date,
           SYSDATE
-       ) - start_date ) * 24 * 60 * 60 time_active,
+       ) - start_date ) * 24 * 60 * 60) time_active,
        raw_key
 --delete 
 FROM secret_key

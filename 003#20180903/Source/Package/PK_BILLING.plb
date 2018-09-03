@@ -12,7 +12,7 @@ create or replace PACKAGE BODY pk_billing AS
       dbms_output.put_line('CARD NUMBER');
       dbms_output.put_line('  ENCRYPTED: ' || v_card.card_number.encrypted_data);
       dbms_output.put_line('  DECRYPTED: ' ||
-      pk_decrypt.decrypt(v_card.card_number) );
+      sis_restrito.pk_decrypt.decrypt(v_card.card_number) );
    EXCEPTION
       WHEN no_data_found THEN
          dbms_output.put_line('Credit Card not found.');
