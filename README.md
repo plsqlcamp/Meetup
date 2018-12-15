@@ -33,4 +33,17 @@
     <td>18/10/2018</td>
     <td><a href="https://github.com/plsqlcamp/Meetup/tree/master/004%2320181018">004#20181018</a></td>
   </tr>
+  <tr>
+    <td>#5</td>
+	<td>Meetup #5 - Tema livre - 4 sessões de 20min</td>
+    <td>13/12/2018</td>
+    <td>
+		<ul>
+		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/005%2320181213/001%23Fun%C3%A7%C3%B5es%20Anal%C3%ADticas">001#Funções Analíticas</a></li>
+		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/005%2320181213/002%23Melhoria%20de%20Processos">002#Melhoria de Processos</a></li>
+		  <li>003#Oracle18c JSON</li>
+		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/005%2320181213/004%23SQL%20Profiler">004#SQL Profiler</a></li>
+		</ul>
+	</td>
+  </tr>
 </table>
