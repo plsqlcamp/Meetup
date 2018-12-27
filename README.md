@@ -1,6 +1,6 @@
 <h1># Meetup PL/SQL CAMP</h1>
 <p>Contains the samples used in Meetup PL/SQL CAMP.</p>
-<p>Fell free to join us in: https://www.meetup.com/pt-BR/PL-SQL-CAMP/ <p>
+<p>Feel free to join us in: https://www.meetup.com/pt-BR/PL-SQL-CAMP/ <p>
 
 <table>
   <tr>
