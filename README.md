@@ -1,6 +1,6 @@
 <h1># Meetup PL/SQL CAMP</h1>
 <p>Contains the samples used in Meetup PL/SQL CAMP.</p>
-<p>Fell free to join us in: https://www.meetup.com/pt-BR/PL-SQL-CAMP/ <p>
+<p>Feel free to join us in: https://www.meetup.com/pt-BR/PL-SQL-CAMP/ <p>
 
 <table>
   <tr>
@@ -41,7 +41,7 @@
 		<ul>
 		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/005%2320181213/001%23Fun%C3%A7%C3%B5es%20Anal%C3%ADticas">001#Funções Analíticas</a></li>
 		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/005%2320181213/002%23Melhoria%20de%20Processos">002#Melhoria de Processos</a></li>
-		  <li>003#Oracle18c JSON</li>
+		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/005%2320181213/003%23Oracle18c%20JSON">003#Oracle18c JSON</a></li>
 		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/005%2320181213/004%23SQL%20Profiler">004#SQL Profiler</a></li>
 		</ul>
 	</td>
