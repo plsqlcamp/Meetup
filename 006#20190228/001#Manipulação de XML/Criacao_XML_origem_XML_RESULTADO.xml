@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+   <order>
+      <ordernumber>99503</ordernumber>
+      <emp_list>
+         <endereco>
+            <ender>Ellen Adams</ender>
+            <street>123 Maple Street</street>
+            <state>CA</state>
+            <zip>10999</zip>
+            <country>USA</country>
+         </endereco>
+         <endereco>
+            <ender>Tai Yee</ender>
+            <street>8 Oak Avenue</street>
+            <state>PA</state>
+            <zip>95819</zip>
+            <country>USA</country>
+         </endereco>
+      </emp_list>
+   </order>
+</orders>
