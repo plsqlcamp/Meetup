@@ -49,7 +49,7 @@
   <tr>
     <td>#6</td>
 	<td>Meetup #6 - Tema livre - 3 sessões de 20min</td>
-    <td>13/12/2018</td>
+    <td>28/02/2019</td>
     <td>
 		<ul>
 		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/006%2320190228/001%23Manipula%C3%A7%C3%A3o%20de%20XML">001#Manipulação de XML</a></li>
