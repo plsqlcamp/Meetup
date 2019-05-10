@@ -53,7 +53,7 @@
     <td>
 		<ul>
 		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/006%2320190228/001%23Manipula%C3%A7%C3%A3o%20de%20XML">001#Manipulação de XML</a></li>
-		  <li><a href="#">002#Manipulação de coleções</a></li>
+		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/006%2320190228/002%23Manipula%C3%A7%C3%A3o%20de%20cole%C3%A7%C3%B5es">002#Manipulação de coleções</a></li>
 		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/006%2320190228/003%23Oracle%20Restful%20Data%20Services">003#Oracle Restful Data Services</a></li>
 		</ul>
 	</td>
