@@ -58,4 +58,15 @@
 		</ul>
 	</td>
   </tr>
+  <tr>
+    <td>#7</td>
+	<td>Meetup #7 - LGPD e WebService REST</td>
+    <td>15/05/2019</td>
+    <td>
+		<ul>
+		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/007%2320190515/LGPD">001#LGPD - Lei Geral de Proteção de Dados</a></li>
+		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/007%2320190515/REST_API">002#WebService REST</a></li>
+		</ul>
+	</td>
+  </tr>
 </table>
