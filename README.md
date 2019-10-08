@@ -69,4 +69,12 @@
 		</ul>
 	</td>
   </tr>
+  <tr>
+    <td>#8</td>
+	<td>Meetup #8 - Integrações entre sistemas</td>
+    <td>17/06/2019</td>
+    <td>
+	<a href="https://github.com/plsqlcamp/Meetup/tree/master/008%2320150617/REST_API">008#20150617</a>
+    </td>
+  </tr>
 </table>
