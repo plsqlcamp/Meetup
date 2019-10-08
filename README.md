@@ -74,7 +74,7 @@
 	<td>Meetup #8 - Integrações entre sistemas</td>
     <td>17/06/2019</td>
     <td>
-	<a href="https://github.com/plsqlcamp/Meetup/tree/master/008%2320150617/REST_API">008#20150617</a>
+	<a href="https://github.com/plsqlcamp/Meetup/tree/master/008%2320190617/REST_API">008#20150617</a>
     </td>
   </tr>
   <tr>
@@ -83,6 +83,14 @@
     <td>06/08/2019</td>
     <td>
 	N/A
+    </td>
+  </tr>
+  <tr>
+    <td>#11</td>
+	<td>Meetup #11 - Mesa redonda sobre DDD</td>
+    <td>03/10/2019</td>
+    <td>
+	<a href="https://github.com/plsqlcamp/Meetup/tree/master/011%2320191003">011#20191003</a>
     </td>
   </tr>
 </table>
