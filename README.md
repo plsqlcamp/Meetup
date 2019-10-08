@@ -1,6 +1,6 @@
 <h1># Meetup PL/SQL CAMP</h1>
 <p>Contains the samples used in Meetup PL/SQL CAMP.</p>
-<p>Feel free to join us in: https://www.meetup.com/pt-BR/PL-SQL-CAMP/ <p>
+<p>Feel free to join us: https://www.meetup.com/pt-BR/PL-SQL-CAMP/ <p>
 
 <table>
   <tr>
@@ -75,6 +75,14 @@
     <td>17/06/2019</td>
     <td>
 	<a href="https://github.com/plsqlcamp/Meetup/tree/master/008%2320150617/REST_API">008#20150617</a>
+    </td>
+  </tr>
+  <tr>
+    <td>#9</td>
+	<td>Meetup #9 - PL/SQL and BEER</td>
+    <td>06/08/2019</td>
+    <td>
+	N/A
     </td>
   </tr>
 </table>
