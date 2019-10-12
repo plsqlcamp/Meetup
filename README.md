@@ -93,4 +93,15 @@
 	<a href="https://github.com/plsqlcamp/Meetup/tree/master/011%2320191003">011#20191003</a>
     </td>
   </tr>
+  <tr>
+    <td>#11</td>
+	<td>Meetup #10 - 2º Meetup GUOB 2019</td>
+    <td>05/10/2019</td>
+    <td>
+		<ul>
+		  <li><a href="https://github.com/plsqlcamp/Meetup/tree/master/010%2320191005/Lendas%20de%20Indices">001#Lendas de Índices</a></li>
+		  <li><a href="https://www.slideshare.net/08FrankyWeber/plsql-camp-meetup-2019-oracle-partitioning-for-developers" target="_blank">002#Oracle Partitioning for Devs: Why,When and How</a></li>
+		</ul>
+    </td>
+  </tr>
 </table>
